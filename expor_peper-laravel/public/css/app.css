@@ -1,0 +1,53 @@
+body {
+	margin-bottom: 120;
+	margin-top: 30px;
+}
+
+
+.card img{
+	margin-top: 30px;
+}
+
+.about {
+	margin-top: 130px;
+}
+.featur {
+	margin-top: 30px;
+}
+
+.card-title {
+	margin-top: 30px;
+}
+
+.carousel-inner {
+	margin-top: 48px;
+}
+
+.carousel-caption {
+	padding: 400px;
+}
+
+section {
+	min-height: 500px;
+}
+
+.footer {
+	background: #000;
+}
+
+.card-img-overlay{
+	margin-top: 170px;
+	font-family: arial;
+	color: blue;
+}
+
+.text {
+	color: crimson;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text1 {
+	color: darkslategray;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
