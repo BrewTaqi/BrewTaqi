@@ -31,10 +31,6 @@ section {
 	min-height: 500px;
 }
 
-.footer {
-	background: #000;
-}
-
 .card-img-overlay{
 	margin-top: 170px;
 	font-family: arial;
@@ -50,4 +46,25 @@ section {
 	color: darkslategray;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: medium;
+}
+.footer {
+	background: #000;
+	min-height: 300px;
+	margin-top: 60px;
+}
+.footerbg {
+	background: white;
+}
+.footertext {
+	margin-top: 20%;
+}
+.footerdown {
+	margin-top: 230px;
+	background: rgb(71, 71, 68);
+	min-height: 100px;
+}
+.googleMap {
+	margin-top: 10px;
+	margin-bottom: -150px;
+
 }

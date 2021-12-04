@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <title>Belanje Lada</title>
   </head>
@@ -15,7 +15,8 @@
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Belanje Lada</a>
+
+        <a class="navbar-brand page-scroll" href="#home">Belanje Lada</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,16 +24,17 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="nav navbar-nav">
             <li class="nav-item active ">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active page-scroll" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Products</a>
+              <a class="nav-link active page-scroll" href="#product">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Team</a>
+              <a class="nav-link active page-scroll" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active page-scroll" href="#footer" class="page-contoller">Contact</a>
+
             </li>    
           </ul>
         </div>
@@ -41,7 +43,7 @@
 {{-- Navbar end --}}
 
 {{-- Corousel --}}
-<section class="home" id="homer">
+<section class="home" id="home">
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,25 +95,25 @@
     <div class="row">
       <div class="col-sm-3">
         <img src="gambar/comitmen.png" alt="" class="card-img-top">
-        <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title text-center">Commitment</h5>
+            <p class="card-text">Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted.</p>
       </div>
     
       <div class="col-sm-3">
         <img src="gambar/love.png" alt="" class="card-img-top">
-        <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title text-center">Integrity</h5>
+            <p class="card-text">Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised.</p>
      </div>
       <div class="col-sm-3">
         <img src="gambar/inovaton.png" alt="" class="card-img-top">
-        <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title text-center">Inovation</h5>
+            <p class="card-text">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
       </div>
     
       <div class="col-sm-3">
         <img src="gambar/quality.png" alt="" class="card-img-top">
-        <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title text-center">Quality</h5>
+            <p class="card-text">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
       </div>
     </div>
   </div>
@@ -157,10 +159,14 @@
       <div class="col-sm-5">
         <h3>White Pepper</h3>
         <p>Coconut fiber, is a natural fiber extracted from the husk of coconut[1] and used in products such as floor mats, doormats, brushes and mattresses. Coir is the fibrous material found between the hard, internal shell and the outer coat of a coconut. Other uses of brown coir (made from ripe coconut) are in upholstery padding, sacking and horticulture. White coir, harvested from unripe coconuts, is used for making finer brushes, string, rope and fishing net</p>
-        <button type="button" class="btn btn-outline-secondary">Contact Us <img src=""></button>
       </div>
       <div class="col-sm-7 text-center">
         <img src="gambar/pepper1.jpg" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-sm-offsite-10 text-center">
+        <button type="button" class="btn btn-outline-secondary">Contact Us <img src=""></button>
       </div>
     </div>
   </div>
@@ -208,18 +214,71 @@
 {{-- Footer --}}
 <section class="footer" id="footer">
   <div class="container">
-    <div class="raw">
+    <div class="footerbg">
+    <div class="row">
       <div class="col-sm-12">
-        <h1></h1>
+        <h1>Contact</h1>
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-4 text-center">
+      <h1>Saran</h1>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-6" >
+        <div class="footertext" id="footertext">
+        <h1>Belanje Lada</h1>
+        <h5>PT</h5>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <script src="http://maps.googleapis.com/maps/api/js"></script>
+      <script>
+        // fungsi initialize untuk mempersiapkan peta
+        function initialize() {
+        var propertiPeta = {
+            center:new google.maps.LatLng(-8.5830695,116.3202515),
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        
+        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+        }
+
+        // event jendela di-load  
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <!-- Elemen yang akan menjadi kontainer peta -->
+    <div class="googleMap" id="googleMap" style="width:100%;height:450px;"></div>
+    </div>
+    </div>
+  </div>
+  <section class="footerdown">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <h1>Belanje</h1>
+            <p>Lada</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1>IG</h1>
+          <h2>Faceebook</h2>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h5>Gg Denpasar XII No 190</>
+          <h5>abdullahtaqimahfuz@gmail.com</h5>
+          <h5>+62 813 9552 2636</h5>
+        </div>
+    </div>
+    </div>
+  </section>
 </section>
 {{-- Footer End --}}
 
     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-<script src="js/scritp.js"></script>
+{{-- <script src="js/jquery-3.6.0.min.js"> </script> --}}
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
