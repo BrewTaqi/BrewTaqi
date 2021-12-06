@@ -31,6 +31,9 @@ section {
 	min-height: 500px;
 }
 
+.product button {
+	margin-top: 20px;
+}
 .card-img-overlay{
 	margin-top: 170px;
 	font-family: arial;
@@ -56,7 +59,7 @@ section {
 	background: white;
 }
 .footertext {
-	margin-top: 20%;
+	margin-top: 10%;
 }
 .footerdown {
 	margin-top: 230px;
@@ -64,7 +67,6 @@ section {
 	min-height: 100px;
 }
 .googleMap {
-	margin-top: 10px;
-	margin-bottom: -150px;
+	margin-bottom: -200px;
 
 }

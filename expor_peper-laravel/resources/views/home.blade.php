@@ -8,22 +8,22 @@
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/app.css">
-    <title>Belanje Lada</title>
+    <title>Muntok White Pepper</title>
   </head>
 
   {{-- Navbar --}}
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-
-        <a class="navbar-brand page-scroll" href="#home">Belanje Lada</a>
+        
+        <a class="navbar-brand page-scroll" href="#home">Muntok White Pepper</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="nav navbar-nav">
-            <li class="nav-item active ">
+            <li class="nav-item">
               <a class="nav-link active page-scroll" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
@@ -33,7 +33,7 @@
               <a class="nav-link active page-scroll" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active page-scroll" href="#footer" class="page-contoller">Contact</a>
+              <a class="nav-link active page-scroll" href="#footer">Contact</a>
 
             </li>    
           </ul>
@@ -44,7 +44,7 @@
 
 {{-- Corousel --}}
 <section class="home" id="home">
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,7 +53,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="gambar/pepper1.jpg" class="d-block w-100" alt="...">
-      <div class="card-img-overlay d-none d-md-block text-center ">
+      <div class="card-img-overlay col-none col-sm-block text-center ">
         <h1 class="display-3">Bangka White Pepper</h1>
         <div class="text" id="text">
         <h3>Authentic Muntok White Papper to Worldwide</h3>
@@ -62,18 +62,18 @@
     </div>
     <div class="carousel-item">
       <img src="gambar/pepper2.jpg" class="d-block w-100" alt="...">
-      <div class="card-img-overlay d-none d-md-block">
-        <h1>We supplied the authentic Muntok white pepper from Bangka Belitung - Indonesians with the highest quality from around the world</h1>
-        <div class="text1" id="text1">
-        <h3 class="display-5">And we committed to the authenticity and flavor of spices of the finest quality</h3>
+      <div class="card-img-overlay col-none col-sm-block">
+            <h1>We supplied the authentic Muntok white pepper from Bangka Belitung - Indonesians with the highest quality from around the world</h1>
+              <div class="text1" id="text1">
+                <h3 class="display-5">And we committed to the authenticity and flavor of spices of the finest quality</h3>
+              </div>
       </div>
     </div>
-    </div>
     <div class="carousel-item">
-      <img src="gambar/pepper1.jpg" class="d-block w-100 height-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+      <img src="gambar/pepper1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption col-none col-sm-block">
+            <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -84,8 +84,8 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
-</div>
+  </div>
+  </div>
 </section>
 {{-- Corousel end --}}
 
@@ -118,7 +118,6 @@
     </div>
   </div>
 </section>
-
 {{-- Featur end --}}
 
 
@@ -213,7 +212,7 @@
 
 {{-- Footer --}}
 <section class="footer" id="footer">
-  <div class="container">
+  <div class="container-fluid">
     <div class="footerbg">
     <div class="row">
       <div class="col-sm-12">
@@ -229,7 +228,7 @@
     <div class="row">
       <div class="col-sm-6" >
         <div class="footertext" id="footertext">
-        <h1>Belanje Lada</h1>
+        <h1>Muntok White Pepper</h1>
         <h5>PT</h5>
       </div>
     </div>
@@ -258,11 +257,11 @@
   <section class="footerdown">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-2 text-center">
           <h1>Belanje</h1>
             <p>Lada</p>
         </div>
-        <div class="col-sm-4 text-center">
+        <div class="col-sm-6 text-center">
           <h1>IG</h1>
           <h2>Faceebook</h2>
         </div>
@@ -278,7 +277,9 @@
 {{-- Footer End --}}
 
     
-{{-- <script src="js/jquery-3.6.0.min.js"> </script> --}}
+<script src="js/jquery-3.6.0.min.js"> </script>
 <script src="js/bootstrap.min.js"></script>
-</body>
+<script src="js/scritp.js"></script>
+
+  </body>
 </html>
