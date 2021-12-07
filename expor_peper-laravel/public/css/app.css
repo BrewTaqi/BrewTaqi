@@ -1,5 +1,9 @@
+html {
+	position: relative;
+}
+
 body {
-	margin-bottom: 120;
+	margin-bottom: 100px;
 	margin-top: 30px;
 }
 
@@ -12,7 +16,7 @@ body {
 	margin-top: 130px;
 }
 .featur {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .card-title {
@@ -50,23 +54,18 @@ section {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: medium;
 }
-.footer {
-	background: #000;
-	min-height: 300px;
-	margin-top: 60px;
+.team {
+	min-height: 850px;
 }
-.footerbg {
-	background: white;
-}
-.footertext {
-	margin-top: 10%;
-}
-.footerdown {
-	margin-top: 230px;
-	background: rgb(71, 71, 68);
-	min-height: 100px;
+footer {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	background-color: #000;
 }
 .googleMap {
-	margin-bottom: -200px;
-
+	margin-bottom: 80px;
+	width: 100%;
+	height: 450px;
 }

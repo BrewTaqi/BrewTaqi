@@ -12,8 +12,9 @@
   </head>
 
   {{-- Navbar --}}
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         
         <a class="navbar-brand page-scroll" href="#home">Muntok White Pepper</a>
@@ -24,7 +25,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="nav navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active page-scroll" aria-current="page" href="#about">About</a>
+              <a class="nav-link active page-scroll"  href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active page-scroll" href="#product">Products</a>
@@ -44,6 +45,7 @@
 
 {{-- Corousel --}}
 <section class="home" id="home">
+  <div class="container-fluid">
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -86,11 +88,12 @@
   </button>
   </div>
   </div>
+</div>
 </section>
 {{-- Corousel end --}}
 
 {{-- Featur --}}
-<section class="featur" id="feature">
+<section class="featur">
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
@@ -174,7 +177,7 @@
 
 {{-- Team --}}
 <section class="team" id="team">
-  <div class="container">
+  <div class="container-fluid">
      <div class="row">
        <div class="col-sm-12 text-end">
          <h1>Our Team</h1>
@@ -210,70 +213,61 @@
 </section>
 {{-- Team And --}}
 
-{{-- Footer --}}
-<section class="footer" id="footer">
-  <div class="container-fluid">
-    <div class="footerbg">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>Contact</h1>
-      </div>
-    </div>
+{{-- Contact --}}
+<section class="contact" id="contact">
+<div class="row">
+  <div class="col-sm-12">
+    <h1>Contact</h1>
   </div>
+</div>
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-4 text-center">
-      <h1>Saran</h1>
-    </div>
-  </div>
-    <div class="row">
-      <div class="col-sm-6" >
-        <div class="footertext" id="footertext">
-        <h1>Muntok White Pepper</h1>
-        <h5>PT</h5>
-      </div>
+    <div class="col-sm-6">
+      <h1>Did You Know White Pepper</h1>
     </div>
     <div class="col-sm-6">
       <script src="http://maps.googleapis.com/maps/api/js"></script>
       <script>
         // fungsi initialize untuk mempersiapkan peta
-        function initialize() {
-        var propertiPeta = {
-            center:new google.maps.LatLng(-8.5830695,116.3202515),
-            zoom:15,
-            mapTypeId:google.maps.MapTypeId.ROADMAP
-        };
-        
-        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
-        }
-
-        // event jendela di-load  
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-    <!-- Elemen yang akan menjadi kontainer peta -->
-    <div class="googleMap" id="googleMap" style="width:100%;height:450px;"></div>
-    </div>
+          function initialize() {
+            var propertiPeta = {
+              center:new google.maps.LatLng(-2.127782,106.111973),
+                zoom:15,
+                  mapTypeId:google.maps.MapTypeId.ROADMAP
+                };
+                  var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+                }
+          // event jendela di-load  
+                google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <!-- Elemen yang akan menjadi kontainer peta -->
+          <div class="googleMap" id="googleMap"></div>
     </div>
   </div>
-  <section class="footerdown">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-2 text-center">
-          <h1>Belanje</h1>
+    <div class="row">
+      <div class="col-sm-9 col-sm-offsite-3 text-center">
+        <img src="gambar/icon_ig.png" href="">
+      </div>
+    </div>
+</section>
+        
+{{-- Footer --}}
+<footer>
+  <div class="row">
+      <div class="col-sm-2 text-center">
+           <h1>Belanje</h1>
             <p>Lada</p>
-        </div>
+      </div>
         <div class="col-sm-6 text-center">
           <h1>IG</h1>
-          <h2>Faceebook</h2>
+            <h2>Faceebook</h2>
         </div>
-        <div class="col-sm-4 text-center">
-          <h5>Gg Denpasar XII No 190</>
-          <h5>abdullahtaqimahfuz@gmail.com</h5>
-          <h5>+62 813 9552 2636</h5>
-        </div>
+          <div class="col-sm-4 text-center">
+            <h5>Gg Denpasar XII No 190</>
+            <h5>abdullahtaqimahfuz@gmail.com</h5>
+            <h5>+62 813 9552 2636</h5>
+          </div>
     </div>
-    </div>
-  </section>
-</section>
+</footer>
 {{-- Footer End --}}
 
     
