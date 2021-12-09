@@ -17,7 +17,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         
-        <a class="navbar-brand page-scroll" href="#home">Muntok <p>White Pepper</p></a>
+        <a class="navbar-brand page-scroll" href="#home">Muntok White Pepper</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,9 +72,7 @@
                   <div class="text1">
                     <ul class="list-unstyled">
                       <li>We supplied the authentic Muntok white pepper from Bangka Belitung,</li>
-                      <li>Indonesians with the highest quality from around the world</li>
-                      <li>and we committed to the authenticity and </li>
-                      <li>flavor of spices of the finest quality.</li>
+                      <li>Indonesians with the highest quality from around the world.</li>
                     </ul>
                   </div>
               </div>
@@ -82,8 +80,12 @@
               <div class="carousel-item">
                 <img src="gambar/Lada1.jpeg" class="col-block" alt="...">
                   <div class="card-img-overlay col-none col-sm-block">
-                      <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <div class="text2">
+                    <ul class="list-unstyled text-end">
+                      <li>We committed to the authenticity and </li>
+                      <li>flavor of spices of the finest quality.</li>
+                    </ul>
+                  </div>
                   </div>
               </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -103,24 +105,24 @@
   <div class="featur">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-center">
           <img src="gambar/comitmen.png" alt="" class="card-img-top">
           <h5 class="card-title text-center">Commitment</h5>
               <p class="card-text">Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted.</p>
         </div>
       
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-center">
           <img src="gambar/love.png" alt="" class="card-img-top">
           <h5 class="card-title text-center">Integrity</h5>
               <p class="card-text">Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised.</p>
        </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-center">
           <img src="gambar/inovaton.png" alt="" class="card-img-top">
           <h5 class="card-title text-center">Inovation</h5>
               <p class="card-text">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
         </div>
       
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-center">
           <img src="gambar/quality.png" alt="" class="card-img-top">
           <h5 class="card-title text-center">Quality</h5>
               <p class="card-text">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
@@ -139,7 +141,6 @@
     <div class="row">
       <div class="col-sm-12">
         <h2>About Us</h2>
-        <hr>
       </div>
     </div>
   
@@ -186,12 +187,14 @@
 
 {{-- Team --}}
 <section class="team" id="team">
-  <div class="container-fluid">
+  <div class="container">
      <div class="row">
        <div class="col-sm-12 text-end">
          <h1>Our Team</h1>
        </div>
      </div>
+  </div>
+  <div class="container-fluid">
      <div class="row">
        <div class="col-sm-3 text-center">
          <img src="gambar/inul.png" alt="" class="card-img-top">
