@@ -14,16 +14,15 @@
   {{-- Navbar --}}
 <body>
   
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(59, 80, 69)">
     <div class="container">
-        
         <a class="navbar-brand page-scroll" href="#home">Muntok White Pepper</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active page-scroll"  href="#about">About</a>
             </li>
@@ -45,7 +44,6 @@
 
 {{-- Corousel --}}
 <section class="home" id="home">
-  <div class="container-fluid">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -53,6 +51,7 @@
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="row">
+    <div class="container">
     <div class="gambar">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -197,25 +196,25 @@
   <div class="container-fluid">
      <div class="row">
        <div class="col-sm-3 text-center">
-         <img src="gambar/inul.png" alt="" class="card-img-top">
+         <img src="gambar/inul.png" alt="" class="rounded-circle"/>
          <h4>Inul</h4>
          <h5>Founder</h5>
          <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
        </div>
        <div class="col-sm-3 text-center">
-        <img src="gambar/pep.png" alt="" class="card-img-top">
+        <img src="gambar/pep.png" alt="" class="rounded-circle">
         <h4>Pep</h4>
         <h5>Co-Founder</h5>
         <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
       </div>
       <div class="col-sm-3 text-center" >
-        <img src="gambar/lanza.png" alt="" class="card-img-top">
+        <img src="gambar/lanza.png" alt="" class="rounded-circle">
         <h4>Lanza</h4>
         <h5>Marketing</h5>
         <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
       </div>
       <div class="col-sm-3 text-center">
-        <img src="gambar/brew.png" alt="" class="card-img-top">
+        <img src="gambar/brew.png" alt="" class="rounded-circle">
         <h4>BrewTaqi</h4>
         <h5>Development</h5>
         <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>

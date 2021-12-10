@@ -7,7 +7,7 @@ body {
     margin-top: 10px;
 }
 .navbar-brand {
-    margin-top: -10px;
+    margin-top: -20px;
     font-size: 1.5rem;
     margin-bottom: -25px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -22,27 +22,28 @@ body {
 .home img {
     width: 100%;
     height: 650px;
-    margin-top: 22px;
+    margin-top: -20px;
 }
 
-.featur {
-    margin-top: 50px;
-}
 .featur img {
-    width: 30%;
-    height: 80px;
+    margin-top: 30px;
+    width: 25%;
+    height: 60px;
 }
 .featur .card-title {
     margin-top: 10px;
 }
+
+.card-title {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
 .about {
     margin-top: 200px;
 }
 .about h5 {
     margin-top: 15px;
-}
-.card-title {
-    margin-top: 30px;
 }
 
 .carousel-inner {
@@ -94,7 +95,7 @@ section {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 40px;
     color: rgba(228, 226, 115, 0.89);
-    margin-top: 300px;
+    margin-top: 250px;
 }
 .team {
     margin-top: 120px;
@@ -102,8 +103,11 @@ section {
 }
 .team img {
     margin-top: 20px;
+    width: 80%;
 }
-
+.team h4 {
+    margin-top: 30px;
+}
 .latar {
     background-color: rgb(18, 199, 175);
 }
