@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    margin-bottom: 100px;
-    margin-top: 10px;
+    margin-bottom: 300px;
+    margin-top: -30px;
 }
 .navbar-brand {
     margin-top: -20px;
@@ -22,7 +22,6 @@ body {
 .home img {
     width: 100%;
     height: 650px;
-    margin-top: -20px;
 }
 
 .featur img {
@@ -33,43 +32,33 @@ body {
 .featur .card-title {
     margin-top: 10px;
 }
-
-.card-title {
-    margin-top: 30px;
-    font-size: 40px;
-}
-
 .about {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .about h5 {
     margin-top: 15px;
 }
-
-.carousel-inner {
-    margin-top: 48px;
-}
-
-.carousel-caption {
-    padding: 400px;
+.about svg {
+    margin-bottom: -80px;
 }
 
 section {
-    min-height: 500px;
+    padding-top: 5rem;
 }
-.product {
-    margin-top: 100px;
+.product h1 {
+    background-color: #3b5045;
 }
 .product h3 {
-    margin-top: 15px;
+    margin-top: 30px;
+}
+.product img {
+    margin-top: 40px;
 }
 .product button {
     margin-top: 20px;
 }
 .card-img-overlay {
     margin-top: 170px;
-    font-family: arial;
-    color: blue;
 }
 .text0 {
     color: thistle;
@@ -99,7 +88,7 @@ section {
 }
 .team {
     margin-top: 120px;
-    min-height: 850px;
+    min-height: 350px;
 }
 .team img {
     margin-top: 20px;
@@ -108,19 +97,23 @@ section {
 .team h4 {
     margin-top: 30px;
 }
+.team svg {
+    margin-bottom: -80px;
+}
 .latar {
-    background-color: rgb(18, 199, 175);
+    background-color: #3b5045;
 }
 .contact {
-    background-color: rgb(7, 109, 95);
-    margin-top: 100px;
+    background-color: #86b19b;
+    min-height: 700px;
 }
 footer {
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 300px;
     bottom: 0;
-    background-color: rgb(4, 59, 52);
+    background-color: #3b5045;
+    margin-top: 100px;
 }
 .text3 {
     margin-top: 30px;
