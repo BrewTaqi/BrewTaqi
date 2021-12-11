@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <title>Muntok White Pepper</title>
   </head>
 
@@ -166,10 +167,11 @@
       <div class="col-md-12">
         <h1>Product</h1>
       </div>
+      </div>
     </div>
-    
+    <div class="container">
     <div class="row">
-      <div class="col-md-6 text-end">
+      <div class="col-md-6">
         <h3>White Pepper</h3>
         <p>Coconut fiber, is a natural fiber extracted from the husk of coconut[1] and used in products such as floor mats, doormats, brushes and mattresses. Coir is the fibrous material found between the hard, internal shell and the outer coat of a coconut. Other uses of brown coir (made from ripe coconut) are in upholstery padding, sacking and horticulture. White coir, harvested from unripe coconuts, is used for making finer brushes, string, rope and fishing net</p>
       </div>
@@ -177,10 +179,11 @@
         <img src="gambar/pepper1.jpg" alt="">
       </div>
     </div>
+    </div>
   </div>
     <div class="row">
-      <div class="col-md-2 col-md-offsite-10 text-center">
-        <button type="button" class="btn btn-outline-secondary">Contact Us <img src=""></button>
+      <div class="col-md-4 col-md-offsite-8 text-center">
+        <a type="button" href="https://api.whatsapp.com/send?phone=" class="btn btn-outline-secondary">Contact Us <i class="bi bi-whatsapp" style="color: green"></i></a>
       </div>
     </div>
   </div>
@@ -262,11 +265,15 @@
             <div class="googleMap" id="googleMap"></div>
       </div>
     </div>
-      <div class="row">
-        <div class="col-md-9 col-md-offsite-3 text-center">
-          <img src="gambar/icon_ig.png" href="">
+      <div class="row text-center" >
+        <div class="icon">
+        <div class="col-md-12">
+        <a href="" style="color: magenta"><i  style="font-size: 3rem;" class="bi bi-instagram"></i></a>&ensp;
+        <a href=""><i  style="font-size: 3rem;" class="bi bi-facebook"></i></a>&ensp;
+        <a href="" style="color: green"><i  style="font-size: 3rem;" class="bi bi-whatsapp"></i></a>
         </div>
       </div>
+    </div>
 </div>
 </section>
         
@@ -281,9 +288,11 @@
             <h2>Faceebook</h2>
         </div>
           <div class="col-md-4 text-center">
-            <h3>Gg Denpasar XII No 190</h3>
-            <h3>abdullahtaqimahfuz@gmail.com</h3>
-            <h3>+62 813 9552 2636</h3>
+            <i class="fas fa-map-marker-alt"></i>
+            <h3 class="elementor-icon-box-description">Gg Denpasar XII No 190
+            <br>
+            Pangkalpinang, Bangka,Belitung
+          </h3>
           </div>
     </div>
 </footer>
