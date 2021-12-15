@@ -15,7 +15,7 @@
   {{-- Navbar --}}
 <body>
   
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:  #3b5045">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:  #3b504581" >
     <div class="container">
         <a class="navbar-brand page-scroll" href="#home">Muntok White Pepper</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,10 +70,8 @@
               <img src="gambar/lada24.jpg" class="col-block" alt="...">
               <div class="card-img-overlay col-none col-md-block">
                   <div class="text1">
-                    <ul class="list-unstyled">
-                      <li>We supplied the authentic Muntok white pepper from Bangka Belitung,</li>
-                      <li>Indonesians with the highest quality from around the world.</li>
-                    </ul>
+                      <h4 class="display-5">We supplied the authentic Muntok white Pepper</h4>
+                      <h4>From Bangka Belitung, Indonesians with the highest quality from around the world.</h4>
                   </div>
               </div>
             </div>
@@ -81,9 +79,9 @@
                 <img src="gambar/Lada1.jpeg" class="col-block" alt="...">
                   <div class="card-img-overlay col-none col-md-block">
                     <div class="text2">
-                    <ul class="list-unstyled text-end">
-                      <li>We committed to the authenticity and </li>
-                      <li>flavor of spices of the finest quality.</li>
+                    <ul class="text-end">
+                      <h1 class="display-5">We committed to the authenticity</h3>
+                      <h4>and flavor of spices of the finest quality.</h4>
                     </ul>
                   </div>
                   </div>
@@ -105,27 +103,35 @@
   <div class="featur">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center border1">
           <img src="gambar/comitmen.png" alt="" class="card-img-top">
-          <h5 class="card-title text-center">Commitment</h5>
-              <p class="card-text">Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted.</p>
+          <h4 class="card-title text-center">Commitment</h4>
+              <p class="card-text">Commitment is important where we will continue to provide the 
+                best to our customers and investors all the time. Our opportunity to serve should 
+                be viewed as a privilege that is not to be taken for granted.</p>
         </div>
       
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center border2">
           <img src="gambar/love.png" alt="" class="card-img-top">
-          <h5 class="card-title text-center">Integrity</h5>
-              <p class="card-text">Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised.</p>
+          <h4 class="card-title text-center">Integrity</h5>
+              <p class="card-text">Integrity means telling the truth, keeping our word and 
+                treating others with fairness and respect. Integrity is one of our most 
+                cherished assets. It must not be compromised.</p>
        </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center border3">
           <img src="gambar/inovaton.png" alt="" class="card-img-top">
-          <h5 class="card-title text-center">Inovation</h5>
-              <p class="card-text">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
+          <h4 class="card-title text-center">Inovation</h4>
+              <p class="card-text">Quality is exhibited in many ways by selling and supporting products 
+                and services that delight customers, establishing a work environment , delivering financial 
+                results that meet investor expectations.</p>
         </div>
       
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center border4">
           <img src="gambar/quality.png" alt="" class="card-img-top">
-          <h5 class="card-title text-center">Quality</h5>
-              <p class="card-text">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.</p>
+          <h4 class="card-title text-center">Quality</h5>
+              <p class="card-text">Quality is exhibited in many ways by selling and 
+                supporting products and services that delight customers, establishing a work environment, 
+                delivering financial results that meet investor expectations.</p>
         </div>
       </div>
     </div>
@@ -140,23 +146,32 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2>About Us</h2>
+        <h1>About Us</h1>
       </div>
     </div>
   
   <div class="row">
     <div class="col-md-6">
-      <h5>We process more than 1,500 hectares of coconut plantations, spread across several islands in Eastern Indonesia.</h5>
-      <p>In the beginning, our company was engaged in manufacturing where we processed coconut derivative products, 
-        namely coconut shells into coconut shell charcoal.And after that our company expanded and expanded into coconut plantations, 
-        to process more derivative products</p>
+      <h5>We are an exporter of white pepper with the best premium quality in the world.</h5>
+      <div>With a distinctive taste of white pepper Muntok and a high level of spiciness above,</div>
+      <div class="bg-success p-2 text-dark bg-opacity-10">average more than thousands of 
+              muntok white pepper farmers produce high quality,</div>
+      <div>white pepper and are processed traditionally such as seed selection and treatment,</div>
+      <div class="bg-success p-2 text-dark bg-opacity-10">peeling and drying systems to produce a 
+              distinctive taste of native Indonesian spices.</div>
     </div>
     <div class="col-md-6 text-center">
       <img src="gambar/{{ $img; }}" alt="">
     </div>
   </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3b5045" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,229.3C384,235,480,181,576,186.7C672,192,768,256,864,272C960,288,1056,256,1152,224C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#3b5045" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,229.3C384,235,480,181,576,186.7C672,
+        192,768,256,864,272C960,288,1056,256,1152,224C1248,192,1344,160,1392,
+        144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,
+        320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+</svg>
 </section>
 {{-- About End --}}
 
@@ -165,7 +180,7 @@
     <div class="row">
       <div class="container">
       <div class="col-md-12">
-        <h1>Product</h1>
+        <h1 >Product</h1>
       </div>
       </div>
     </div>
@@ -173,7 +188,10 @@
     <div class="row">
       <div class="col-md-6">
         <h3>White Pepper</h3>
-        <p>Coconut fiber, is a natural fiber extracted from the husk of coconut[1] and used in products such as floor mats, doormats, brushes and mattresses. Coir is the fibrous material found between the hard, internal shell and the outer coat of a coconut. Other uses of brown coir (made from ripe coconut) are in upholstery padding, sacking and horticulture. White coir, harvested from unripe coconuts, is used for making finer brushes, string, rope and fishing net</p>
+        <div class="bg-success p-2 text-white bg-opacity-75">With a distinctive taste of white pepper Muntok and a high level of spiciness above</div>
+      <div class="bg-success p-2 text-dark bg-opacity-50">average more than thousands of muntok white pepper farmers produce high quality</div>
+      <div class="bg-success p-2 text-dark bg-opacity-25">white pepper and are processed traditionally such as seed selection and treatment,</div>
+      <div class="bg-success p-2 text-dark bg-opacity-10">peeling and drying systems to produce a distinctive taste of native Indonesian spices.</div>
       </div>
       <div class="col-md-6 text-center">
         <img src="gambar/pepper1.jpg" alt="">
@@ -183,7 +201,8 @@
   </div>
     <div class="row">
       <div class="col-md-4 col-md-offsite-8 text-center">
-        <a type="button" href="https://api.whatsapp.com/send?phone=" class="btn btn-outline-secondary">Contact Us <i class="bi bi-whatsapp" style="color: green"></i></a>
+        <a type="button" href="https://api.whatsapp.com/send/?phone=6287743145956&text&app_absent=0" class="btn btn-outline-secondary">
+          Contact Us <i class="bi bi-whatsapp" style="color: green"></i></a>
       </div>
     </div>
   </div>
@@ -202,28 +221,32 @@
   <div class="container-fluid">
      <div class="row">
        <div class="col-md-3 text-center">
-         <img src="gambar/inul.png" alt="" class="rounded-circle"/>
-         <h4>Inul</h4>
-         <h5>Founder</h5>
-         <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
-       </div>
+         <img src="gambar/mhf.jpg" alt="" class="rounded-circle"/>
+         <h4>Maulidil</h4>
+         <h6>Founder</h6>
+         <p>Learn from experience, start for today and look forward to tomorrow. There is no success without failure and hope for the possibilities.</p>
+         <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
+        </div>
        <div class="col-md-3 text-center">
-        <img src="gambar/pep.png" alt="" class="rounded-circle">
-        <h4>Pep</h4>
-        <h5>Co-Founder</h5>
-        <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
+        <img src="gambar/pep1.jpg" alt="" class="rounded-circle">
+        <h4>Febrian</h4>
+        <h6>Co-Founder</h6>
+        <p>Take risks, if you win you'll be happy, if you lose, you'll be wiser.</p>
+        <a href="https://www.instagram.com/febrian_pepep/"><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
       </div>
       <div class="col-md-3 text-center" >
-        <img src="gambar/lanza.png" alt="" class="rounded-circle">
+        <img src="gambar/gudin.png" alt="" class="rounded-circle">
         <h4>Lanza</h4>
-        <h5>Marketing</h5>
-        <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
+        <h6>Marketing</h6>
+        <p>Try to get something you want to get until you do.</p>
+        <a href=""><i style="font-size: 1.5rem;"  class="bi bi-instagram"></i></a>
       </div>
       <div class="col-md-3 text-center">
-        <img src="gambar/brew.png" alt="" class="rounded-circle">
+        <img src="gambar/brew.jpg" alt="" class="rounded-circle">
         <h4>BrewTaqi</h4>
-        <h5>Development</h5>
-        <p>Our faith is the substance of our future. There is no big success without big sacrifice.</p>
+        <h6>Development</h6>
+        <p>Thinking you can be successful is the first step, the next step is moving towards success.</p>
+        <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
       </div>
      </div>
   </div>
@@ -268,9 +291,9 @@
       <div class="row text-center" >
         <div class="icon">
         <div class="col-md-12">
-        <a href="" style="color: magenta"><i  style="font-size: 3rem;" class="bi bi-instagram"></i></a>&ensp;
-        <a href=""><i  style="font-size: 3rem;" class="bi bi-facebook"></i></a>&ensp;
-        <a href="" style="color: green"><i  style="font-size: 3rem;" class="bi bi-whatsapp"></i></a>
+        <a href="" style="color: magenta"><i  style="font-size: 2rem;" class="bi bi-instagram"></i></a>&ensp;
+        <a href=""><i  style="font-size: 2rem;" class="bi bi-facebook"></i></a>&ensp;
+        <a href="" style="color: green"><i  style="font-size: 2rem;" class="bi bi-whatsapp"></i></a>
         </div>
       </div>
     </div>
