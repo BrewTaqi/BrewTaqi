@@ -17,7 +17,7 @@
   
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:  #3b504581" >
     <div class="container">
-        <a class="navbar-brand page-scroll" href="#home">Muntok White Pepper</a>
+        <a class="navbar-brand page-scroll" href="#home" ><img src="gambar/brand.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -113,7 +113,7 @@
       
         <div class="col-md-3 text-center border2">
           <img src="gambar/love.png" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Integrity</h5>
+          <h4 class="card-title text-center">Integrity</h4>
               <p class="card-text">Integrity means telling the truth, keeping our word and 
                 treating others with fairness and respect. Integrity is one of our most 
                 cherished assets. It must not be compromised.</p>
@@ -128,7 +128,7 @@
       
         <div class="col-md-3 text-center border4">
           <img src="gambar/quality.png" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Quality</h5>
+          <h4 class="card-title text-center">Quality</h4>
               <p class="card-text">Quality is exhibited in many ways by selling and 
                 supporting products and services that delight customers, establishing a work environment, 
                 delivering financial results that meet investor expectations.</p>
@@ -221,28 +221,28 @@
   <div class="container-fluid">
      <div class="row">
        <div class="col-md-3 text-center">
-         <img src="gambar/mhf.jpg" alt="" class="rounded-circle"/>
+         <img src="gambar/mhf.jpg" alt="" class="rounded"/>
          <h4>Maulidil</h4>
          <h6>Founder</h6>
          <p>Learn from experience, start for today and look forward to tomorrow. There is no success without failure and hope for the possibilities.</p>
          <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
         </div>
        <div class="col-md-3 text-center">
-        <img src="gambar/pep1.jpg" alt="" class="rounded-circle">
+        <img src="gambar/pep3.jpeg" alt="" class="rounded">
         <h4>Febrian</h4>
         <h6>Co-Founder</h6>
         <p>Take risks, if you win you'll be happy, if you lose, you'll be wiser.</p>
         <a href="https://www.instagram.com/febrian_pepep/"><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
       </div>
       <div class="col-md-3 text-center" >
-        <img src="gambar/gudin.png" alt="" class="rounded-circle">
+        <img src="gambar/gudin.jpeg" alt="" class="rounded">
         <h4>Lanza</h4>
         <h6>Marketing</h6>
         <p>Try to get something you want to get until you do.</p>
         <a href=""><i style="font-size: 1.5rem;"  class="bi bi-instagram"></i></a>
       </div>
       <div class="col-md-3 text-center">
-        <img src="gambar/brew.jpg" alt="" class="rounded-circle">
+        <img src="gambar/brew.jpg" alt="" class="rounded">
         <h4>BrewTaqi</h4>
         <h6>Development</h6>
         <p>Thinking you can be successful is the first step, the next step is moving towards success.</p>
