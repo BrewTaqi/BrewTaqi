@@ -13,8 +13,15 @@
   </head>
 
   {{-- Navbar --}}
-<body>
+<body onload="hide_loading();">
   
+  {{-- Loading --}}
+  <div class="loading overlay text-center">
+  <div class="loadingio-spinner-dual-ball-v5gnduskd6"><div class="ldio-e49il0u02oj">
+    <div></div><div></div><div></div>
+    </div></div>
+  </div>
+  {{-- Loading End --}}
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:  #3b504581" >
     <div class="container">
         <a class="navbar-brand page-scroll" href="#home" ><img src="gambar/brand.png" alt=""></a>
@@ -45,15 +52,15 @@
 
 {{-- Corousel --}}
 <section class="home" id="home">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
   <div class="row">
     <div class="container">
-    <div class="gambar">
+        <div class="gambar">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="gambar/Lada.jpg" class="col-block" alt="...">
@@ -76,7 +83,7 @@
               </div>
             </div>
               <div class="carousel-item">
-                <img src="gambar/Lada1.jpeg" class="col-block" alt="...">
+                <img src="gambar/Lada11.jpeg" class="col-block" alt="...">
                   <div class="card-img-overlay col-none col-md-block">
                     <div class="text2">
                     <ul class="text-end">
@@ -100,42 +107,125 @@
   </div>
   </div>
 
-  <div class="featur">
+  <div class="why">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-center border1">
-          <img src="gambar/comitmen.png" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Commitment</h4>
-              <p class="card-text">Commitment is important where we will continue to provide the 
-                best to our customers and investors all the time. Our opportunity to serve should 
-                be viewed as a privilege that is not to be taken for granted.</p>
-        </div>
-      
-        <div class="col-md-3 text-center border2">
-          <img src="gambar/love.png" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Integrity</h4>
-              <p class="card-text">Integrity means telling the truth, keeping our word and 
-                treating others with fairness and respect. Integrity is one of our most 
-                cherished assets. It must not be compromised.</p>
-       </div>
-        <div class="col-md-3 text-center border3">
-          <img src="gambar/inovaton.png" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Inovation</h4>
-              <p class="card-text">Quality is exhibited in many ways by selling and supporting products 
-                and services that delight customers, establishing a work environment , delivering financial 
-                results that meet investor expectations.</p>
-        </div>
-      
-        <div class="col-md-3 text-center border4">
-          <img src="gambar/quality.png" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Quality</h4>
-              <p class="card-text">Quality is exhibited in many ways by selling and 
-                supporting products and services that delight customers, establishing a work environment, 
-                delivering financial results that meet investor expectations.</p>
+        <div class="col-md-12">
+          <h1 class="display-5">Why Us ?</h1>
+          <h5> Muntok White pepper has a high-quality spice taste because it 
+            has high piperine (spiciness level) (5-7%) and a sharp aroma 
+            of essential oils.</h5>
+          <p>Traditional processing is using the soaking method to remove 
+            the skin of the pepper, dry in the sun, and do several parameters 
+            of feasibility testing before being processed. We have quality growers 
+            and white pepper.</p>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="featur">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-center">
+        <div class="card">
+        <div class="face face1">
+          <div class="content">
+          <img src="gambar/comitmen.png" alt="">
+          <h3>Commitment</h3>
+        </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+            <p class="card-text">Commitment is important where we will continue to provide the 
+              best to our customers and investors all the time. Our opportunity to serve should 
+              be viewed as a privilege that is not to be taken for granted.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div class="col-md-3 text-center">
+          <div class="card">
+          <div class="face face1">
+            <div class="content">
+            <img src="gambar/love.png" alt="">
+            <h3>Integrity</h3>
+          </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+              <p class="card-text">Integrity means telling the truth, keeping our word and 
+                treating others with fairness and respect. Integrity is one of our most 
+                cherished assets. It must not be compromised..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <div class="col-md-3 text-center">
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+              <img src="gambar/inovaton.png" alt="">
+              <h3>Inovation</h3>
+            </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                <p class="card-text">Innovation means inventing, designing, developing 
+                  products and services that have high appeal in the marketplace and 
+                  strengthen customer preference for the Universal Coco Indonesia 
+                  project.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                <img src="gambar/quality.png" alt="">
+                <h3>Quality</h3>
+              </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                  <p class="card-text">Quality is exhibited in many ways by selling and 
+                    supporting products and services that delight customers, establishing a work environment, 
+                    delivering financial results that meet investor expectations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+        {{-- <div class="col-md-3 text-center face face2">
+          <div class="content">
+          <img src="" alt="" class="card-img-top">
+          <h4 class="card-title text-center">Integrity</h4>
+              <p class="card-text"></p>
+          </div>
+        </div> --}}
+
+        {{-- <div class="col-md-3 text-center face face3">
+          <div class="content">
+          <img src="" alt="" class="card-img-top">
+          <h4 class="card-title text-center">Inovation</h4>
+              <p class="card-text"></p>
+        </div>
+      </div> --}}
+      
+        {{-- <div class="col-md-3 text-center face face4">
+          <div class="content">
+          <img src="" alt="" class="card-img-top">
+          <h4 class="card-title text-center">Quality</h4>
+              <p class="card-text"></p>
+          </div>
+      </div> --}}
+
+      </div>
+    </div>
   </div>
 
 </section>
@@ -146,17 +236,17 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>About Us</h1>
+        <h1 class="display-5">About Us</h1>
       </div>
     </div>
   
   <div class="row">
     <div class="col-md-6">
       <h5>We are an exporter of white pepper with the best premium quality in the world.</h5>
-      <div>With a distinctive taste of white pepper Muntok and a high level of spiciness above,</div>
-      <div class="bg-success p-2 text-dark bg-opacity-10">average more than thousands of 
-              muntok white pepper farmers produce high quality,</div>
-      <div>white pepper and are processed traditionally such as seed selection and treatment,</div>
+      <div class="bg-success p-2 text-dark bg-opacity-100">With a distinctive taste of white pepper Muntok and a high level of spiciness above,</div>
+      <div class="bg-success p-2 text-dark bg-opacity-75">average more than thousands of</div>
+      <div class="bg-success p-2 text-dark bg-opacity-50">muntok white pepper farmers produce high quality,</div>
+      <div class="bg-success p-2 text-dark bg-opacity-25">white pepper and are processed traditionally such as seed selection and treatment,</div>
       <div class="bg-success p-2 text-dark bg-opacity-10">peeling and drying systems to produce a 
               distinctive taste of native Indonesian spices.</div>
     </div>
@@ -180,21 +270,25 @@
     <div class="row">
       <div class="container">
       <div class="col-md-12">
-        <h1 >Product</h1>
+        <h1 class="display-3">Product</h1>
       </div>
       </div>
     </div>
     <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3>White Pepper</h3>
-        <div class="bg-success p-2 text-white bg-opacity-75">With a distinctive taste of white pepper Muntok and a high level of spiciness above</div>
-      <div class="bg-success p-2 text-dark bg-opacity-50">average more than thousands of muntok white pepper farmers produce high quality</div>
-      <div class="bg-success p-2 text-dark bg-opacity-25">white pepper and are processed traditionally such as seed selection and treatment,</div>
-      <div class="bg-success p-2 text-dark bg-opacity-10">peeling and drying systems to produce a distinctive taste of native Indonesian spices.</div>
+        <h3 class="display-1">White Pepper</h3> 
+        <p class="fs-5">White pepper is a spice with a spicy taste and a white color. 
+          White pepper is usually used as a spice in the kitchen to give a 
+          sensational yet warm taste to dishes. This Muntok white pepper 
+          contains the highest levels of piperine in the world and has 
+          benefits for the health of the body including breathing, 
+          preventing stomach disorders, preventing damage to body cells, helping to prevent, and others.
+          The products we provide will be packed using 50 kg plastic sacks or 
+          according to the buyer's request.</p>
       </div>
       <div class="col-md-6 text-center">
-        <img src="gambar/pepper1.jpg" alt="">
+        <img src="gambar/phonlada1.png" alt="">
       </div>
     </div>
     </div>
@@ -214,40 +308,76 @@
   <div class="container">
      <div class="row">
        <div class="col-md-12 text-end">
-         <h1>Our Team</h1>
+         <h1 class="display-5">Our Team</h1>
        </div>
      </div>
   </div>
   <div class="container-fluid">
      <div class="row">
        <div class="col-md-3 text-center">
-         <img src="gambar/mhf.jpg" alt="" class="rounded"/>
-         <h4>Maulidil</h4>
-         <h6>Founder</h6>
-         <p>Learn from experience, start for today and look forward to tomorrow. There is no success without failure and hope for the possibilities.</p>
-         <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
+        <div class="gallery-detail">
+          <div class="thumbnail">
+            <div class="thumbnail-img">
+              <img src="gambar/mhf.jpg" alt="" class="rounded"/>
+            </div>
+            <div class="caption">
+              <h6>Learn from experience, start for today and look forward to tomorrow. There is no success without failure and hope for the possibilities.</h6>
+              <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          </div>
+              <h4>Maulidil</h4>
+              <h6>Founder</h6> 
         </div>
+
        <div class="col-md-3 text-center">
-        <img src="gambar/pep3.jpeg" alt="" class="rounded">
+        <div class="gallery-detail">
+          <div class="thumbnail">
+            <div class="thumbnail-img">
+              <img src="gambar/pep4.jpg" alt="" class="rounded"/>
+            </div>
+            <div class="caption">
+              <h6>Take risks, if you win you'll be happy, if you lose, you'll be wiser.</h6>
+              <a href="https://www.instagram.com/febrian_pepep/"><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          </div>
         <h4>Febrian</h4>
         <h6>Co-Founder</h6>
-        <p>Take risks, if you win you'll be happy, if you lose, you'll be wiser.</p>
-        <a href="https://www.instagram.com/febrian_pepep/"><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
       </div>
+
       <div class="col-md-3 text-center" >
-        <img src="gambar/gudin.jpeg" alt="" class="rounded">
+        <div class="gallery-detail">
+          <div class="thumbnail">
+            <div class="thumbnail-img">
+              <img src="gambar/gudin1.jpg" alt="" class="rounded">
+            </div>
+            <div class="caption">
+              <h6>Try to get something you want to get until you do.</h6>
+              <a href=""><i style="font-size: 1.5rem;"  class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          </div>
         <h4>Lanza</h4>
         <h6>Marketing</h6>
-        <p>Try to get something you want to get until you do.</p>
-        <a href=""><i style="font-size: 1.5rem;"  class="bi bi-instagram"></i></a>
       </div>
+      
       <div class="col-md-3 text-center">
-        <img src="gambar/brew.jpg" alt="" class="rounded">
+        <div class="gallery-detail">
+          <div class="thumbnail">
+            <div class="thumbnail-img">
+              <img src="gambar/brew.jpg" alt="" class="rounded">
+            </div>
+            <div class="caption">
+              <h6>Thinking you can be successful is the first step, the next step is moving towards success.</h6>
+              <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          </div>
         <h4>BrewTaqi</h4>
         <h6>Development</h6>
-        <p>Thinking you can be successful is the first step, the next step is moving towards success.</p>
-        <a href=""><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
       </div>
+
      </div>
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3b5045" fill-opacity="1" d="M0,32L80,37.3C160,43,320,53,480,96C640,139,800,213,960,218.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg></section>
@@ -259,7 +389,7 @@
   <div class="row">
     <div class="latar">
     <div class="col-md-12 text-center">
-      <h1>Contact</h1>
+      <h1 class="display-5">Contact</h1>
     </div>
     </div>
   </div>
@@ -321,7 +451,7 @@
 </footer>
 {{-- Footer End --}}
 
-    
+<script src="js/scritp.js"></script>   
 <script src="js/jquery-3.6.0.min.js"> </script>
 <script src="js/bootstrap.min.js"></script>
 

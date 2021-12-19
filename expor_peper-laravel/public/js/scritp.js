@@ -1,15 +1,19 @@
-$(".page-scroll").on("click", function (event) {
-    // // ambil isi href
-    var tujuan = $(this).attr("href");
-
-    // tangkap elemen ybs
-    var elemenTujuan = $(tujuan);
-
-    // console.log(elemenTujuan.offset().top);
-    console.log($("body").scrollTop());
-    // $("body").animate({
-    // scrollTop: elemenTujuan.offset().top -70
-    // },1000, "swing");
-
-    event.preventDefault();
-});
+let fadeTarget = document.querySelector(".loading");
+function show_loading() {
+    fadeTarget.style.display = "block";
+    fadeTarget.style.opacity = 1;
+}
+function hide_loading() {
+    // fadeTarget.style.display = "none";
+    let fadeEffect = setInterval(() => {
+        if (!fadeTarget.style.opacity) {
+            fadeTarget.style.opacity = 1;
+        }
+        if (fadeTarget.style.opacity > 0) {
+            fadeTarget.style.opacity -= 0.1;
+        } else {
+            clearInterval(fadeEffect);
+            fadeTarget.style.display = "none";
+        }
+    }, 100);
+}
