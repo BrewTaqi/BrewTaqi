@@ -22,7 +22,7 @@
     </div></div>
   </div>
   {{-- Loading End --}}
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:  #3b504581" >
+<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <a class="navbar-brand page-scroll" href="#home" ><img src="gambar/brand.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +63,7 @@
         <div class="gambar">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="gambar/Lada.jpg" class="col-block" alt="...">
+          <img src="gambar/Lada1.jpg" class="col-block" alt="...">
           <div class="card-img-overlay col-none col-md-block text-center ">
             <div class="text0">
             <h1 class="display-3">Bangka White Pepper</h1>
@@ -74,7 +74,7 @@
           </div>
         </div>
             <div class="carousel-item">
-              <img src="gambar/lada24.jpg" class="col-block" alt="...">
+              <img src="gambar/lada25.jpg" class="col-block" alt="...">
               <div class="card-img-overlay col-none col-md-block">
                   <div class="text1">
                       <h4 class="display-5">We supplied the authentic Muntok white Pepper</h4>
@@ -83,7 +83,7 @@
               </div>
             </div>
               <div class="carousel-item">
-                <img src="gambar/Lada11.jpeg" class="col-block" alt="...">
+                <img src="gambar/lada13.jpg" class="col-block" alt="...">
                   <div class="card-img-overlay col-none col-md-block">
                     <div class="text2">
                     <ul class="text-end">
@@ -127,7 +127,7 @@
   <div class="featur">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-center">
+        <div class="col-md-2">
         <div class="card">
         <div class="face face1">
           <div class="content">
@@ -136,7 +136,7 @@
         </div>
           </div>
           <div class="face face2">
-            <div class="content">
+            <div class="content text-center">
             <p class="card-text">Commitment is important where we will continue to provide the 
               best to our customers and investors all the time. Our opportunity to serve should 
               be viewed as a privilege that is not to be taken for granted.</p>
@@ -144,8 +144,9 @@
           </div>
         </div>
       </div>
-        
-      <div class="col-md-3 text-center">
+      </div>
+        <div class="row">
+      <div class="col-md-2">
           <div class="card">
           <div class="face face1">
             <div class="content">
@@ -154,7 +155,7 @@
           </div>
             </div>
             <div class="face face2">
-              <div class="content">
+              <div class="content text-center">
               <p class="card-text">Integrity means telling the truth, keeping our word and 
                 treating others with fairness and respect. Integrity is one of our most 
                 cherished assets. It must not be compromised..</p>
@@ -162,8 +163,10 @@
             </div>
           </div>
         </div>
+      </div>
           
-        <div class="col-md-3 text-center">
+      <div class="row">
+        <div class="col-md-2">
           <div class="card">
             <div class="face face1">
               <div class="content">
@@ -172,7 +175,7 @@
             </div>
               </div>
               <div class="face face2">
-                <div class="content">
+                <div class="content text-center">
                 <p class="card-text">Innovation means inventing, designing, developing 
                   products and services that have high appeal in the marketplace and 
                   strengthen customer preference for the Universal Coco Indonesia 
@@ -181,11 +184,13 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-2">
             <div class="card">
               <div class="face face1">
-                <div class="content">
+                <div class="content text-center">
                 <img src="gambar/quality.png" alt="">
                 <h3>Quality</h3>
               </div>
@@ -199,31 +204,6 @@
                 </div>
               </div>
             </div>
-      
-        {{-- <div class="col-md-3 text-center face face2">
-          <div class="content">
-          <img src="" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Integrity</h4>
-              <p class="card-text"></p>
-          </div>
-        </div> --}}
-
-        {{-- <div class="col-md-3 text-center face face3">
-          <div class="content">
-          <img src="" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Inovation</h4>
-              <p class="card-text"></p>
-        </div>
-      </div> --}}
-      
-        {{-- <div class="col-md-3 text-center face face4">
-          <div class="content">
-          <img src="" alt="" class="card-img-top">
-          <h4 class="card-title text-center">Quality</h4>
-              <p class="card-text"></p>
-          </div>
-      </div> --}}
-
       </div>
     </div>
   </div>
@@ -251,7 +231,7 @@
               distinctive taste of native Indonesian spices.</div>
     </div>
     <div class="col-md-6 text-center">
-      <img src="gambar/{{ $img; }}" alt="">
+      <img src="gambar/phonlada1.png" alt="">
     </div>
   </div>
   </div>
@@ -286,19 +266,17 @@
           preventing stomach disorders, preventing damage to body cells, helping to prevent, and others.
           The products we provide will be packed using 50 kg plastic sacks or 
           according to the buyer's request.</p>
+          <div class="col-md-4 text-center">
+            <a type="button" href="https://api.whatsapp.com/send/?phone=6287743145956&text&app_absent=0" class="btn btn-outline-secondary">
+              Contact Us <i class="bi bi-whatsapp" style="color: green"></i></a>
+          </div>
       </div>
       <div class="col-md-6 text-center">
-        <img src="gambar/phonlada1.png" alt="">
+        <img src="gambar/produk.png" alt="">
       </div>
     </div>
     </div>
   </div>
-    <div class="row">
-      <div class="col-md-4 col-md-offsite-8 text-center">
-        <a type="button" href="https://api.whatsapp.com/send/?phone=6287743145956&text&app_absent=0" class="btn btn-outline-secondary">
-          Contact Us <i class="bi bi-whatsapp" style="color: green"></i></a>
-      </div>
-    </div>
   </div>
 </section>
 {{-- Product End --}}
@@ -312,6 +290,7 @@
        </div>
      </div>
   </div>
+
   <div class="container-fluid">
      <div class="row">
        <div class="col-md-3 text-center">
@@ -377,10 +356,12 @@
         <h4>BrewTaqi</h4>
         <h6>Development</h6>
       </div>
-
      </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3b5045" fill-opacity="1" d="M0,32L80,37.3C160,43,320,53,480,96C640,139,800,213,960,218.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg></section>
+     </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3b5045" fill-opacity="1" d="M0,32L80,37.3C160,43,320,53,480,96C640,139,800,213,960,218.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg></section>
+
+  
 {{-- Team And --}}
 
 {{-- Contact --}}
@@ -393,32 +374,44 @@
     </div>
     </div>
   </div>
-    <div class="row">
-      <div class="col-md-6">
+  
+      <div class="row">
+      <div class="col-md-3">
         <div class="text3">
         <h1>Did You Know White Pepper</h1>
         </div>
       </div>
-      <div class="col-md-6 text-center">
-        <script src="http://maps.googleapis.com/maps/api/js"></script>
-        <script>
-          // fungsi initialize untuk mempersiapkan peta
+      <div class="col-md-3">
+        <div class="text4">
+          <h5>Office</h5>
+          <h5>Mobile : +62 877 4314 5956</h5>
+          <h5>Email : muntokwhitepepper21@gmail.com</h5>
+          <h5>Whatsapp : +62 877 4314 5956</h5>
+        </div>
+      </div>
+      
+      
+      <div class="col-md-6">
+        <div class="googleMap" id="googleMap">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7974.209624403457!2d106.11629211795054!3d-2.113251819770401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e22c1923e5b01ff%3A0xfa3936094e012c0!2sMuntok%20White%20Pepper!5e0!3m2!1sen!2sid!4v1639922105563!5m2!1sen!2sid"></iframe>
+        {{-- <script>
+          // fungsi initialize untuk mempersiapkan peta apikey= AIzaSyBniPRnSGkgeaxKB14Mnd3FU4KZ1nXArLQ
             function initialize() {
               var propertiPeta = {
-                center:new google.maps.LatLng(-2.127782,106.111973),
-                  zoom:15,
+                  zoom:20,
                     mapTypeId:google.maps.MapTypeId.ROADMAP
                   };
                     var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
                   }
             // event jendela di-load  
                   google.maps.event.addDomListener(window, 'load', initialize);
-          </script>
+          </script>  --}}
           <!-- Elemen yang akan menjadi kontainer peta -->
-            <div class="googleMap" id="googleMap"></div>
+          </div>
       </div>
     </div>
-      <div class="row text-center" >
+
+        <div class="row" >
         <div class="icon">
         <div class="col-md-12">
         <a href="" style="color: magenta"><i  style="font-size: 2rem;" class="bi bi-instagram"></i></a>&ensp;
@@ -433,20 +426,9 @@
 {{-- Footer --}}
 <footer>
   <div class="row" >
-      <div class="col-md-2 text-center">
+      <div class="col-md-12 text-center">
            <h4>Muntok <p>White Pepper</p> </h4>
       </div>
-        <div class="col-md-6 text-center">
-          <h2>IG</h2>
-            <h2>Faceebook</h2>
-        </div>
-          <div class="col-md-4 text-center">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3 class="elementor-icon-box-description">Gg Denpasar XII No 190
-            <br>
-            Pangkalpinang, Bangka,Belitung
-          </h3>
-          </div>
     </div>
 </footer>
 {{-- Footer End --}}
