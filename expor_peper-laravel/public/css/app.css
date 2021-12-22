@@ -239,10 +239,11 @@ body {
 /* Home end */
 
 .about {
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 40px;
 }
 .about img {
-    width: 400px;
+    width: 600px;
     height: 450px;
 }
 .about h1 {
@@ -253,9 +254,6 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
-.about svg {
-    margin-bottom: -90px;
-}
 
 section {
     padding-top: 5.5rem;
@@ -263,6 +261,9 @@ section {
 }
 
 /* product */
+.product {
+    margin-top: -88px;
+}
 .product .col-md-12 {
     background-color: #3b5045;
 }
@@ -338,7 +339,7 @@ section {
 
 .team {
     margin-top: 120px;
-    min-height: 500px;
+    min-height: 400px;
 }
 .team img {
     position: relative;
@@ -349,9 +350,7 @@ section {
 .team h4 {
     margin-top: 30px;
 }
-.team svg {
-    margin-top: -60px;
-}
+
 /* team end */
 
 /* contact */
@@ -359,8 +358,12 @@ section {
     background-color: #3b5045;
 }
 .contact {
-    background-color: #86b19b;
     color: white;
+    margin-top: -90px;
+}
+.contact .row.box {
+    background-color: #86b19b;
+    margin-bottom: -60px;
 }
 .contact .text4 {
     margin-top: 40px;
