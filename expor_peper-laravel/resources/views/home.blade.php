@@ -22,10 +22,10 @@
     </div></div>
   </div>
   {{-- Loading End --}}
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top text-center">
     <div class="container">
         <a class="navbar-brand page-scroll" href="#home" ><img src="gambar/brand.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle-navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -52,7 +52,7 @@
 
 {{-- Corousel --}}
 <section class="home" id="home">
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+  <div id="carouselExampleDark" class="carousel carousel-dark slide"  data-bs-ride="carousel" >
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -77,7 +77,7 @@
               <img src="gambar/lada25.jpg" class="col-block" alt="...">
               <div class="card-img-overlay col-none col-md-block">
                   <div class="text1">
-                      <h4 class="display-5">We supplied the authentic Muntok white Pepper</h4>
+                      <h4 class="display-5">We Supplied the Authentic Muntok White Pepper</h4>
                       <h4>From Bangka Belitung, Indonesians with the highest quality from around the world.</h4>
                   </div>
               </div>
@@ -87,7 +87,7 @@
                   <div class="card-img-overlay col-none col-md-block">
                     <div class="text2">
                     <ul class="text-end">
-                      <h1 class="display-5">We committed to the authenticity</h3>
+                      <h1 class="display-5">We Committed to the Authenticity</h3>
                       <h4>and flavor of spices of the finest quality.</h4>
                     </ul>
                   </div>
@@ -126,85 +126,65 @@
 
   <div class="featur">
     <div class="container">
-      <div class="row">
-        <div class="col-md-2">
+
         <div class="card">
-        <div class="face face1">
-          <div class="content">
+        <div class="imgBx" data-text="Commitment">
           <img src="gambar/comitmen.png" alt="">
-          <h3>Commitment</h3>
-        </div>
           </div>
-          <div class="face face2">
-            <div class="content text-center">
-            <p class="card-text">Commitment is important where we will continue to provide the 
+            <div class="content">
+              <div>
+              <h3>Commitment</h3>
+              <p>Commitment is important where we will continue to provide the 
               best to our customers and investors all the time. Our opportunity to serve should 
               be viewed as a privilege that is not to be taken for granted.</p>
             </div>
           </div>
         </div>
-      </div>
-      </div>
-        <div class="row">
-      <div class="col-md-2">
+    
           <div class="card">
-          <div class="face face1">
-            <div class="content">
+          <div class="imgBx" data-text="Integrity">
             <img src="gambar/love.png" alt="">
-            <h3>Integrity</h3>
-          </div>
             </div>
-            <div class="face face2">
-              <div class="content text-center">
-              <p class="card-text">Integrity means telling the truth, keeping our word and 
+              <div class="content">
+                <div>
+                <h3>Integrity</h3>
+                <p>Integrity means telling the truth, keeping our word and 
                 treating others with fairness and respect. Integrity is one of our most 
                 cherished assets. It must not be compromised..</p>
-              </div>
-            </div>
+              </div>  
+            </div>          
           </div>
-        </div>
-      </div>
           
-      <div class="row">
-        <div class="col-md-2">
           <div class="card">
-            <div class="face face1">
-              <div class="content">
+            <div class="imgBx" data-text="Inovation">
               <img src="gambar/inovaton.png" alt="">
-              <h3>Inovation</h3>
-            </div>
-              </div>
-              <div class="face face2">
-                <div class="content text-center">
-                <p class="card-text">Innovation means inventing, designing, developing 
+              </div>              
+                <div class="content">
+                  <div>
+                  <h3>Inovation</h3>
+                  <p>Innovation means inventing, designing, developing 
                   products and services that have high appeal in the marketplace and 
                   strengthen customer preference for the Universal Coco Indonesia 
                   project.</p>
-                </div>
-              </div>
+                </div> 
+              </div>           
             </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-2">
+          
             <div class="card">
-              <div class="face face1">
-                <div class="content text-center">
-                <img src="gambar/quality.png" alt="">
-                <h3>Quality</h3>
-              </div>
-                </div>
-                <div class="face face2">
+              <div class="imgBx" data-text="Quality">                
+                <img src="gambar/quality.png" alt="">                              
+                </div>              
                   <div class="content">
-                  <p class="card-text">Quality is exhibited in many ways by selling and 
+                    <div>
+                    <h3>Quality</h3>
+                    <p>Quality is exhibited in many ways by selling and 
                     supporting products and services that delight customers, establishing a work environment, 
                     delivering financial results that meet investor expectations.</p>
-                  </div>
-                </div>
+                  </div>  
+                </div>              
               </div>
-            </div>
-      </div>
+            
+    
     </div>
   </div>
 
@@ -254,6 +234,7 @@
       </div>
       </div>
     </div>
+
     <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -266,7 +247,7 @@
           preventing stomach disorders, preventing damage to body cells, helping to prevent, and others.
           The products we provide will be packed using 50 kg plastic sacks or 
           according to the buyer's request.</p>
-          <div class="col-md-4 text-center">
+          <div class="col-md-5 text-center">
             <a type="button" href="https://api.whatsapp.com/send/?phone=6287743145956&text&app_absent=0" class="btn btn-outline-secondary">
               Contact Us <i class="bi bi-whatsapp" style="color: green"></i></a>
           </div>
@@ -276,8 +257,6 @@
       </div>
     </div>
     </div>
-  </div>
-  </div>
 </section>
 {{-- Product End --}}
 
@@ -394,19 +373,6 @@
       <div class="col-md-6">
         <div class="googleMap" id="googleMap">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7974.209624403457!2d106.11629211795054!3d-2.113251819770401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e22c1923e5b01ff%3A0xfa3936094e012c0!2sMuntok%20White%20Pepper!5e0!3m2!1sen!2sid!4v1639922105563!5m2!1sen!2sid"></iframe>
-        {{-- <script>
-          // fungsi initialize untuk mempersiapkan peta apikey= AIzaSyBniPRnSGkgeaxKB14Mnd3FU4KZ1nXArLQ
-            function initialize() {
-              var propertiPeta = {
-                  zoom:20,
-                    mapTypeId:google.maps.MapTypeId.ROADMAP
-                  };
-                    var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
-                  }
-            // event jendela di-load  
-                  google.maps.event.addDomListener(window, 'load', initialize);
-          </script>  --}}
-          <!-- Elemen yang akan menjadi kontainer peta -->
           </div>
       </div>
     </div>
