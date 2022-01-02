@@ -292,11 +292,14 @@ body {
 
 /* Home end */
 
+/* About start */
 .about {
-    margin-top: 150px;
+    background-color: rgba(202, 201, 118, 0.89);
+    margin-top: 140px;
     margin-bottom: -40px;
     min-height: 400px;
 }
+
 .about img {
     width: 450px;
     height: 450px;
@@ -304,12 +307,11 @@ body {
 .about h1 {
     font-weight: bold;
 }
-.about h5 {
+.about p {
     margin-top: 15px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
 }
 
+/* About End */
 section {
     padding-top: 5.5rem;
     /* min-height: 800px; */
@@ -342,9 +344,9 @@ section {
 }
 .product a {
     font-family: monospace;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 .card-img-overlay {
@@ -356,76 +358,90 @@ section {
 .team h1 {
     font-weight: bold;
 }
-.team .swiper.team-slide {
+.team .team-slide {
     position: relative;
     max-width: 100%;
     -webkit-box-reflect: below 1px linear-gradient(transition 70%, #000);
 }
 .team-slide .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 350px;
-    min-height: 350px;
+    width: 300px;
+    min-height: 400px;
     margin: 0 20px;
-    background: crimson;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: rgba(202, 201, 118, 0.89);
 }
+
 .swiper-3d .swiper-slide-shadow-left,
 .swiper-3d .swiper-slide-shadow-right {
     background-image: none;
 }
-.team-slide .swiper-slide .card {
+.team-slide .card {
     position: relative;
     width: 100%;
+    height: 300px;
     margin: 0 auto;
-    background: #000;
-    padding: 60px 40px;
+    padding: 0px 40px;
     text-align: center;
     overflow: hidden;
 }
+.team-slide .swiper-slide .card .imgBx img {
+    width: 350px;
+    margin-left: -40px;
+    height: 350px;
+}
+
 .team-slide .swiper-slide .card .layer {
     position: absolute;
     top: calc(100% - 2px);
     left: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(202, 201, 118, 0.89, #3b5045));
+    height: 300px;
+    background: linear-gradient(rgba(202, 201, 118, 0.89), #3b5045);
     z-index: 1;
     transition: 0.5s;
 }
 .team-slide .swiper-slide .card:hover .layer {
     top: 0;
+    background: #3b504581;
 }
 .team-slide .swiper-slide .card .content {
     position: relative;
     z-index: 2;
 }
 .team-slide .swiper-slide .card .content {
-    font-size: 10px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 20px;
     margin-bottom: 20px;
     color: white;
-}
-.team-slide .swiper-slide .card .content .imgBx {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 10px;
-    border-radius: 50%;
+    margin: 0 auto 40px;
     overflow: hidden;
-    border: 4px solid #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.team-slide .swiper-slide .card .content h3 {
+.team-slide .swiper-slide .card .content p {
+    margin-top: 150px;
+}
+/* .team-slide .swiper-slide .card .content {
+    width: 35px;
+    height: 100px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+} */
+.team-slide .details h4 {
+    font-size: 25px;
+    color: #3b5045;
+    text-align: center;
+}
+.team-slide .details h4 span {
+    color: #3b5045;
     font-size: 18px;
-    color: #fff;
+    text-align: center;
 }
-.team-slide .swiper-slide .card .content h3 span {
-    color: rgba(202, 201, 118, 0.89);
-    font-size: 14px;
-    transition: 0.5s;
-}
-.team-slide .swiper-slide .card:hover .content h3 span {
-    color: #fff;
-}
+
+/* .team-slide .swiper-slide .card:hover .details h4 span {
+    color: blueviolet;
+} */
 
 /* team end */
 
@@ -438,7 +454,7 @@ section {
     margin-top: -90px;
 }
 .contact .container-fluid {
-    background-color: rgba(189, 183, 107, 0.616);
+    background-color: rgba(202, 201, 118, 0.89);
 }
 
 .contact .text4 {
