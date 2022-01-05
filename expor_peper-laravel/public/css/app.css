@@ -55,7 +55,7 @@ body {
     left: 43.339999999999996px;
 }
 .ldio-e49il0u02oj div:nth-child(1) {
-    background: #175608;
+    background: #243e21;
     animation: ldio-e49il0u02oj 1.2048192771084336s linear infinite;
     animation-delay: -0.6024096385542168s;
 }
@@ -65,7 +65,7 @@ body {
     animation-delay: 0s;
 }
 .ldio-e49il0u02oj div:nth-child(3) {
-    background: #175608;
+    background: #243e21;
     animation: ldio-e49il0u02oj-o 1.2048192771084336s linear infinite;
     animation-delay: -0.6024096385542168s;
 }
@@ -181,13 +181,13 @@ body {
     background-image: linear-gradient(
         to right,
         rgba(255, 255, 255, 0.473),
-        #4cda0b46
+        #243e218f
     );
 
     text-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
     margin-left: 20px;
     margin-top: -70px;
-    color: #183f06;
+    color: #243e21;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -224,7 +224,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #3b5045;
+    background: #243e21;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -238,7 +238,7 @@ body {
     left: -75px;
     top: calc(50% - 75px);
     transition: 0.5s ease-in-out;
-    background: #3b5045;
+    background: #243e21;
 }
 .featur .container .card .imgBx::before {
     content: attr(data-text);
@@ -287,7 +287,7 @@ body {
 .why h2 {
     margin-top: 30px;
     font-weight: bold;
-    color: #3b5045;
+    color: #243e21;
 }
 
 /* Home end */
@@ -303,6 +303,7 @@ body {
 .about img {
     width: 450px;
     height: 450px;
+    margin-bottom: 40px;
 }
 .about h1 {
     font-weight: bold;
@@ -322,7 +323,7 @@ section {
     margin-top: -88px;
 }
 .product .col-md-12 {
-    background-color: #3b5045;
+    background-color: #243e21;
 }
 .product h1 {
     color: whitesmoke;
@@ -369,7 +370,11 @@ section {
     margin: 0 20px;
     margin-top: 30px;
     margin-bottom: 50px;
-    background: rgba(202, 201, 118, 0.89);
+    background-image: linear-gradient(
+        to top,
+        #243e21,
+        rgba(202, 201, 118, 0.89)
+    );
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -397,13 +402,13 @@ section {
     left: 0;
     width: 100%;
     height: 300px;
-    background: linear-gradient(rgba(202, 201, 118, 0.89), #3b5045);
+    background: linear-gradient(rgba(202, 201, 118, 0.89), #243e21);
     z-index: 1;
     transition: 0.5s;
 }
 .team-slide .swiper-slide .card:hover .layer {
     top: 0;
-    background: #3b504581;
+    background: rgba(202, 201, 118, 0.596);
 }
 .team-slide .swiper-slide .card .content {
     position: relative;
@@ -413,56 +418,64 @@ section {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: #243e21;
     margin: 0 auto 40px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .team-slide .swiper-slide .card .content p {
     margin-top: 150px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    font-style: italic;
 }
-/* .team-slide .swiper-slide .card .content {
-    width: 35px;
-    height: 100px;
-    margin: 0 auto 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-} */
 .team-slide .details h4 {
-    font-size: 25px;
-    color: #3b5045;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
     text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
 }
 .team-slide .details h4 span {
-    color: #3b5045;
-    font-size: 18px;
+    color: #fff;
+    font-size: 15px;
     text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
 }
-
-/* .team-slide .swiper-slide .card:hover .details h4 span {
-    color: blueviolet;
-} */
 
 /* team end */
 
 /* contact */
 .latar {
-    background-color: #3b5045;
+    background-color: #243e21;
 }
 .contact {
     color: white;
     margin-top: -90px;
 }
+.contact img {
+    width: 300px;
+    height: 100px;
+}
 .contact .container-fluid {
     background-color: rgba(202, 201, 118, 0.89);
 }
+.contact p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 .contact .text4 {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .contact .icon {
     margin-top: -40px;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 .googleMap iframe {
     margin-bottom: 50px;
@@ -475,7 +488,7 @@ footer {
     width: 100%;
     height: 50px;
     bottom: 0;
-    background-color: #3b5045;
+    background-color: #243e21;
     margin-top: 100px;
     color: white;
 }

@@ -25,7 +25,7 @@
   {{-- Loading End --}}
 <nav class="navbar navbar-expand-lg fixed-top col-md-12">
     <div class="container">
-        <a class="navbar-brand page-scroll text-center" href="#home" ><img src="gambar/brand.png" alt="Logo Muntok White Pepper"></a>
+        <a class="navbar-brand page-scroll text-center" href="{{ url ('/#home') }}" ><img src="gambar/brand.png" alt="Logo Muntok White Pepper"></a>
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle-navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,16 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active page-scroll"  href="#about">About</a>
+              <a class="nav-link active page-scroll"  href="{{ url ('/#about') }}">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active page-scroll" href="#product">Products</a>
+              <a class="nav-link active page-scroll" href="{{ url ('/#product') }}">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active page-scroll" href="#team">Team</a>
+              <a class="nav-link active page-scroll" href="{{ url ('/#team') }}">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active page-scroll" href="#contact">Contact</a>
+              <a class="nav-link active page-scroll" href={{ url ('/#contact') }}>Contact</a>
 
             </li>    
           </ul>
@@ -210,12 +210,6 @@
         produce high quality, white pepper and are processed traditionally such as 
         seed selection and treatment, peeling and drying systems to produce a 
         distinctive taste of native Indonesian spices.</p>
-      {{-- <div class="bg-success p-2 text-dark bg-opacity-100">With a distinctive taste of white pepper Muntok and a high level of spiciness above,</div>
-      <div class="bg-success p-2 text-dark bg-opacity-75">average more than thousands of</div>
-      <div class="bg-success p-2 text-dark bg-opacity-50">muntok white pepper farmers produce high quality,</div>
-      <div class="bg-success p-2 text-dark bg-opacity-25">white pepper and are processed traditionally such as seed selection and treatment,</div>
-      <div class="bg-success p-2 text-dark bg-opacity-10">peeling and drying systems to produce a 
-              distinctive taste of native Indonesian spices.</div> --}}
     </div>
   </div>
 
@@ -227,13 +221,8 @@
   </div>
   </div>
 </section>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="#3b5045" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,229.3C384,235,480,181,576,186.7C672,
-      192,768,256,864,272C960,288,1056,256,1152,224C1248,192,1344,160,1392,
-      144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,
-      320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-  </path>
- </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#243e21" fill-opacity="1" d="M0,32L48,64C96,96,192,160,288,170.7C384,181,480,139,576,117.3C672,96,768,96,864,101.3C960,107,1056,117,1152,106.7C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+</path></svg>
 {{-- About End --}}
 
 {{-- Product --}}
@@ -358,7 +347,8 @@
     </div>
   </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3b5045" fill-opacity="1" d="M0,32L80,37.3C160,43,320,53,480,96C640,139,800,213,960,218.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg></section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#243e21" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,170.7C384,203,480,245,576,240C672,235,768,181,864,144C960,107,1056,85,1152,69.3C1248,53,1344,43,1392,37.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path></svg>
 
   
 {{-- Team And --}}
@@ -377,25 +367,25 @@
       <div class="row">
       <div class="col-md-3">
         <div class="text3">
-        <h1>Did You Know White Pepper</h1>
+          <img src="gambar/brand.png" alt="Logo Muntok White Pepper">
+          <p class="fs-5">If you have any questions about our products, please feel free 
+            to contact us via Whatsapp, Email or Instagram and of course, we will 
+            provide the best service.</p><br>
         </div>
         <br>
         <div class="icon">
-          <div class="col-md-12">
-          <a href="https://www.instagram.com/muntokwhitepepper21/" style="color: rgb(114, 24, 136)"><i  style="font-size: 2rem;" class="bi bi-instagram"></i></a>&ensp;
-          <a href=""><i  style="font-size: 2rem;" class="bi bi-email"></i></a>&ensp;
-          <a href="https://wa.me/6287743145956" style="color: green"><i  style="font-size: 2rem;" class="bi bi-whatsapp"></i></a>
-          </div>
+          <a href="https://www.instagram.com/muntokwhitepepper21/" style="color:#346d28"><i  style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>&ensp;
+          <a href="" style="color: #346d28"><i style="font-size: 1.5rem;" class="bi bi-envelope" ></i></a>&ensp;
+          <a href="https://wa.me/6287743145956" style="color: #346d28"><i  style="font-size: 1.5rem;" class="bi bi-whatsapp"></i></a>
         </div>
       </div>
       <div class="col-md-3">
         <div class="text4">
-          <h5>Office :</h5>
-          <h5>Jl. RE. Martadinata No.104, Rejosari, Pangkal Balam, Kota Pangkal Pinang, Kepulauan Bangka Belitung 33684</h5>
-          <br>
-          <h5>Mobile : +62 877 4314 5956</h5>
-          <br>
-          <h5>Email : muntokwhitepepper21@gmail.com</h5>
+          <i class="bi bi-geo-alt-fill"></i>
+          <p class="fs-4">Office :</p>
+          <p class="fs-5">Jl. RE. Martadinata No.104, Rejosari, Pangkal Balam, Kota Pangkal Pinang, Kepulauan Bangka Belitung 33684</p>
+          <i class="bi bi-telephone"></i><p class="fs-5">Mobile : +62 877 4314 5956</p>
+          <i class="bi bi-envelope" ></i><p class="fs-5">Email : muntokwhitepepper21@gmail.com</p>
         </div>
       </div>
       
@@ -441,5 +431,20 @@
       loop: true,
   });
   </script> 
+  <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "+6287743145956", // WhatsApp number
+          call_to_action: "Contact us", // Call to action
+          position: "right", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
   </body>
 </html>
