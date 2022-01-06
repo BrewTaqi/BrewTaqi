@@ -375,7 +375,6 @@
         <br>
         <div class="icon">
           <a href="https://www.instagram.com/muntokwhitepepper21/" style="color:#346d28"><i  style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>&ensp;
-          <a href="" style="color: #346d28"><i style="font-size: 1.5rem;" class="bi bi-envelope" ></i></a>&ensp;
           <a href="https://wa.me/6287743145956" style="color: #346d28"><i  style="font-size: 1.5rem;" class="bi bi-whatsapp"></i></a>
         </div>
       </div>

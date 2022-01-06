@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/u7685593/public_html/
-    - /bin/cp home.blade.php $DEPLOYPATH
-    - /bin/cp app.css $DEPLOYPATH
-    -/bin/cp -R gambar $DEPLOYPATH  
+    - /bin/cp views/home.blade.php $DEPLOYPATH
+    - /bin/cp css/app.css $DEPLOYPATH
+    - /bin/cp -R gambar $DEPLOYPATH
